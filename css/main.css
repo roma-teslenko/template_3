@@ -1,0 +1,514 @@
+/*____________________main properties start____________________*/
+section{
+	width: 100%;
+}
+#warpper,#content{
+	width: 100%;
+}
+/*____________________main properties end____________________*/
+/*____________________navigation start____________________*/
+#naviganion{
+	height: 150px;
+}
+nav{
+	padding: 60px 0;
+	width: 100%;
+	background-color: rgba(63, 73, 81, 0.85);
+	position: fixed;
+	z-index: 5;
+}
+ul.navigationButtons{
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.navigationButtons li{
+	display: inline-block;
+	width: 18%;
+	text-align: center;
+}
+ul.navigationButtons li a{
+	font-family: 'Muli-Bold';
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	border: none;
+	line-height: 35px;
+	color: #fff;
+	transition: color .5s;
+}
+nav ul.navigationButtons li a:hover{
+	text-decoration: none;
+	line-height: 31px;
+	color: #4bcaff;
+	border: 2px #4bcaff solid;
+}
+/*____________________navigation end____________________*/
+/*____________________header start____________________*/
+.overlayHeader{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(81, 95, 103, 0.85);
+	z-index: 1;
+}
+#home{
+	width: 100%;
+	height: 800px;
+	background-image: url(../img/homeBg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	z-index: 0;
+}
+header .heading{
+	padding-top: 400px;
+	position: relative;
+	text-align: center;
+}
+header .heading h1{
+	font-family: 'Muli-Light';
+	position: absolute;
+	top: 350px;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 0;
+}
+header .heading h1 span{
+	display: block;
+	background: rgba(53,63,70, 0.85);
+    width: 85%;
+    margin: 10px auto;
+    padding: 20px 10px;
+}
+header .heading h1 span:first-child{
+	width: 60%;
+}
+/*____________________header end____________________*/
+/*____________________section services start____________________*/
+#services{
+	width: 100%;
+	height: 405px;
+	background-color: #4bcaff;
+}
+#services .servicesHeading h2{
+	margin-top: 60px;
+	color: #fff;
+	font-family: 'Muli-Light';
+	text-transform: uppercase;
+	font-size: 30px;
+	width: 100%;
+	position: relative;
+}
+#services .servicesHeading .headingLine{
+	background-color: #fff;
+	width: 45px;
+	height: 3px;
+	position: absolute;
+	bottom: 2px;
+	left: 15px;
+}
+#services .servicesWrap{
+	margin-top: 60px;
+}
+#services .servicesWrap .servicesItem{
+	height: 175px;
+	color: #fff;
+}
+#services .servicesWrap .servicesItem h3{
+	font-family: 'Muli-Semi-Bold';
+	text-transform: uppercase;
+	font-size: 24px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+#services .servicesWrap .servicesItem p{
+	font-family: 'Muli-Semi-Bold';
+	font-size: 12px;
+	margin: 0;
+}
+/*____________________section services end____________________*/
+/*____________________section portfolio start____________________*/
+#portfolio{
+	height: 845px;
+}
+#portfolio .portfolioHeading h2{
+	margin-top: 60px;
+	color: #7d878d;
+	font-family: 'Muli-Light';
+	text-transform: uppercase;
+	font-size: 30px;
+	width: 100%;
+	position: relative;
+}
+#portfolio .portfolioHeading .headingLine{
+	background-color: #7d878d;
+	width: 45px;
+	height: 3px;
+	position: absolute;
+	bottom: 2px;
+	left: 15px;
+}
+#portfolio ul.navigationButtons li a{
+	color: #626f76;
+	margin-top: 60px;
+	font-family: 'Muli-Bold';
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	border: none;
+	line-height: 35px;
+	transition: color .5s;
+}
+#portfolio ul.navigationButtons li a:hover{
+	text-decoration: none;
+	line-height: 31px;
+	color: #4bcaff;
+	border: 2px #4bcaff solid;
+}
+#portfolio .portfolioWrap{
+	margin-top: 65px;
+}
+#portfolio .portfolioWrap .portfolioItem{
+	width: 270px;
+	height: 270px;
+	margin: 15px auto;
+	position: relative;
+}
+#portfolio .portfolioWrap .portfolioItem .miniOverlay{
+	width: 100%;
+	height: 100%;
+	line-height: 270px;
+	text-align: center;
+	background-color: rgba(53,63,71, 0.9);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity .5s;
+}
+#portfolio .portfolioWrap .portfolioItem:hover .miniOverlay{
+	opacity: 1;
+}
+/*____________________section portfolio end____________________*/
+/*____________________section jds start start____________________*/
+#jds{
+	width: 100%;
+	height: 475px;
+	background-color: #515f67;
+}
+#jds .jdsHeading h2{
+	margin-top: 60px;
+	color: #fff;
+	font-family: 'Muli-Light';
+	text-transform: uppercase;
+	font-size: 30px;
+	width: 100%;
+}
+#jds .jdsHeading .headingLines{
+	background-color: #fff;
+	width: 45px;
+	height: 3px;
+	bottom: 2px;
+	left: 15px;
+}
+#jds p{	
+	font-family: 'Muli-Regular';
+	color: #fff;
+	font-size: 14px;
+	margin-top: 40px;
+  	padding-right: 55px;
+}
+#jds p:nth-child(2){
+	margin: 35px 0 25px;
+}
+#jds button{
+	font-family: 'Muli-Bold';
+	margin-top: 40px;
+	width: 140px;
+	line-height: 45px;
+	border: 2px #353f46 solid;
+	outline: none;
+	color: #353f46;
+	background-color: transparent;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: background-color .5s;
+}
+#jds button:hover{
+	background-color: #fff;
+}
+.jdsVideo{
+	margin-top: 75px;
+}
+/*____________________section jds start end____________________*/
+/*____________________section twitter start____________________*/
+#twitter{
+	width: 100%;
+	height: 305px;
+	background-color: #4bcaff;
+}
+#twitter .twitterHeading h2{
+	margin-top: 60px;
+	color: #fff;
+	font-family: 'Muli-Light';
+	text-transform: uppercase;
+	font-size: 30px;
+	width: 100%;
+}
+#twitter .twitterHeading .headingLines{
+	background-color: #fff;
+	width: 45px;
+	height: 3px;
+	bottom: 2px;
+	left: 15px;
+}
+#twitter p{	
+	font-family: 'Muli-ExtraLight';
+	color: #fff;
+	font-size: 28px;
+	margin-top: 40px;
+  	padding-right: 55px;
+  	text-align: justify;
+}
+#twitter p span{
+	font-family: 'Muli-Semi-Bold';
+	font-weight: 700;
+}
+.twitterLogo{
+	margin-top: 60px;
+}
+/*____________________section twitter end____________________*/
+/*____________________section whoIs start____________________*/
+.overlayWhoIs{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(81, 95, 103, 0.65);
+	z-index: 1;
+}
+#whoIs{
+	width: 100%;
+	height: 505px;
+	background-image: url(../img/whoIsBg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+}
+#whoIs .whoIsHeading h2{
+	margin-top: 60px;
+	color: #fff;
+	font-family: 'Muli-Light';
+	text-transform: uppercase;
+	font-size: 30px;
+	width: 100%;
+}
+#whoIs .whoIsHeading .headingLines{
+	background-color: #fff;
+	width: 45px;
+	height: 3px;
+	bottom: 2px;
+	left: 15px;
+}
+#whoIs p{
+	font-family: 'Muli-Regular';
+	color: #fff;
+	font-size: 14px;
+	margin-top: 40px;
+  	padding-right: 55px;
+}
+#whoIs p:first-child{
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+#whoIs .socialIconsWrap .socialIcon{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border: 2px #fff solid;
+	margin: 0 15px;
+	text-align: center;
+	transition: border .5s;
+}
+#whoIs .socialIconsWrap .socialIcon:hover{
+	border: 2px #515f67 solid;
+}
+#whoIs .socialIconsWrap .socialIcon a{
+	color: #fff;
+	transition: color .5s;
+}
+/*____________________section whoIs end____________________*/
+/*____________________section testimonials start____________________*/
+#testimonials{
+	width: 100%;
+	height: 360px;
+}
+#testimonials .testimonialHeading h2{
+	margin-top: 60px;
+	color: #515f67;
+	font-family: 'Muli-Light';
+	text-transform: uppercase;
+	font-size: 30px;
+	width: 100%;
+}
+#testimonials .testimonialHeading .headingLines{
+	background-color: #515f67;
+	width: 45px;
+	height: 3px;
+	bottom: 2px;
+	left: 15px;
+}
+#testimonials p:nth-child(2){
+	font-family: 'Muli-ExtraLight';
+	margin-top: 40px;
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: 300;
+	margin-bottom: 45px;
+}
+#testimonials p:nth-child(3){
+	font-family: 'Muli-Semi-Bold';
+	margin: 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4bcaff;
+}
+/*____________________section testimonials end____________________*/
+/*____________________section contact start____________________*/
+.overlayContact{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(81, 95, 103, 0.65);
+	z-index: 1;
+}
+#contact{
+	width: 100%;
+	height: 815px;
+	background-image: url(../img/contactBg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	z-index: 0;
+}
+#contact .contactsHeading h2{
+	margin-top: 60px;
+	color: #fff;
+	font-family: 'Muli-Light';
+	text-transform: uppercase;
+	font-size: 30px;
+	width: 100%;
+}
+#contact .contactsHeading .headingLines{
+	background-color: #fff;
+	width: 45px;
+	height: 3px;
+	bottom: 2px;
+	left: 15px;
+}
+.formEmail{
+	margin-top: 25px;
+}
+.contactsContentOne{
+	margin-top: 40px;
+}
+.contactsContentTwo{
+	margin-top: 58px;
+}
+.contactsContentTwo p{
+	color: #fff;
+	font-size: 14px;
+}
+.contactsContentTwo p:nth-child(2){
+	margin-top: 50px;
+	font-size: 14px;
+}
+#contact label{
+	font-family: 'Muli-Semi-Bold';
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+}
+#exampleInputName, #exampleInputEmail{
+	height: 56px;
+	border-radius: 0;
+	border-color: #fff;
+	border-width: 2px;
+	background-color: transparent;
+	margin-bottom: 40px;
+	color: #fff;
+}
+#contact .form-control {
+	background-color: transparent;
+	border-radius: 0;
+	border-color: #fff;
+	border-width: 2px;
+}
+#contact button{
+	margin-top: 40px;
+  	width: 370px;
+  	height: 60px;
+  	line-height: 56px;
+  	border: 2px #4bcaff solid;
+  	outline: none;
+  	color: #fff;
+  	background-color: #4bcaff;
+  	font-size: 14px;
+  	text-align: center;
+  	text-transform: uppercase;
+  	transition: border-color .5s;
+}
+#contact button:hover{
+  	border-color: #fff;
+}
+/*____________________section contact end____________________*/
+/*____________________footer start____________________*/
+footer{
+	width: 100%;
+	height: 170px;
+	background-color: #353f47;
+}
+ul.footerLi{
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.footerLi li{
+	display: inline-block;
+	width: 18%;
+	text-align: center;
+}
+ul.footerLi li a{
+	margin-top: 75px;
+	font-family: 'Muli-Bold';
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	display: block;
+	border: none;
+	line-height: 35px;
+	color: #515f67;
+	transition: color .5s;
+}
+ul.footerLi li a:hover{
+	text-decoration: none;
+	line-height: 30px;
+	color: #fff;
+	border: 1px #fff solid;
+}
+footer p{
+	margin-top: 75px;
+	font-size: 12px;
+	color: #515f67;
+}
+/*____________________footer end____________________*/
+

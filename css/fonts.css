@@ -1,0 +1,35 @@
+@font-face{
+	font-family: 'Muli-Bold';
+	src: url(../fonts/Muli/Muli-Bold.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+}
+@font-face{
+	font-family: 'Muli-Light';
+	src: url(../fonts/Muli/Muli-Light.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+}
+@font-face{
+	font-family: 'Muli-Semi-Bold';
+	src: url(../fonts/Muli/Muli-SemiBold.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+}
+@font-face{
+	font-family: 'Muli-Regular';
+	src: url(../fonts/Muli/Muli-Regular.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+}
+@font-face{
+	font-family: 'Muli-ExtraLight';
+	src: url(../fonts/Muli/Muli-ExtraLight.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+}
