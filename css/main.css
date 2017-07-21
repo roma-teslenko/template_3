@@ -109,7 +109,6 @@ header .heading h1 span:first-child{
 	background-color: #4bcaff;
 }
 #services .servicesHeading h2{
-/*	margin-top: 60px;*/
 	color: #fff;
 	font-family: 'Muli-Light';
 	text-transform: uppercase;
@@ -119,6 +118,7 @@ header .heading h1 span:first-child{
 }
 #services .servicesHeading .headingLine{
 	background-color: #fff;
+	margin-top: 10px;
 	width: 45px;
 	height: 3px;
 	position: absolute;
