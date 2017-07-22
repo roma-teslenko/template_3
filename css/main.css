@@ -104,7 +104,7 @@ header .heading h1 span:first-child{
 /*____________________section services start____________________*/
 #services{
 	width: 100%;
-	padding-top: 80px;
+	padding-top: 40px;
 	padding-bottom: 80px;
 	background-color: #4bcaff;
 }
@@ -118,12 +118,10 @@ header .heading h1 span:first-child{
 }
 #services .servicesHeading .headingLine{
 	background-color: #fff;
-	margin-top: 10px;
 	width: 45px;
 	height: 3px;
-	position: absolute;
-	bottom: 2px;
 	left: 15px;
+	position: absolute;
 }
 #services .servicesWrap{
 	margin-top: 60px;
