@@ -18,23 +18,23 @@ ul.navigationButtons{
 	padding: 0;
 	list-style-type: none;
 }
-ul.navigationButtons li{
+ul.navigationButtons a li{
 	display: inline-block;
 	width: 18%;
 	text-align: center;
 }
-ul.navigationButtons li a{
+ul.navigationButtons a li{
 	font-family: 'Muli-Bold';
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 14px;
-	display: block;
+	/* display: block; */
 	border: none;
 	line-height: 35px;
 	color: #fff;
 	transition: color .5s;
 }
-nav ul.navigationButtons li a:hover{
+nav ul.navigationButtons a:hover li{
 	text-decoration: none;
 	line-height: 31px;
 	color: #4bcaff;
@@ -45,14 +45,14 @@ nav ul.navigation li a{
 }
 .navbar-default{
 	background-image: none;
-	background-color: rgba(53,63,70, 0.85);	
+	background-color: rgba(53,63,70, 0.85);
 	margin: 0;
 	border: none;
 }
 .navbar-default ul.navbar-nav li a{
 	color: #fff;
 	text-transform: uppercase;
-	
+
 }
 .navbar-toggle:hover, .navbar-toggle:focus{
 	background-color: transparent!important;
@@ -228,7 +228,7 @@ header .heading h1 span:first-child{
 	bottom: 2px;
 	left: 15px;
 }
-#jds p{	
+#jds p{
 	font-family: 'Muli-Regular';
 	color: #fff;
 	font-size: 14px;
@@ -280,7 +280,7 @@ header .heading h1 span:first-child{
 	bottom: 2px;
 	left: 15px;
 }
-#twitter p{	
+#twitter p{
 	font-family: 'Muli-ExtraLight';
 	color: #fff;
 	font-size: 28px;
@@ -521,9 +521,8 @@ ul.footerLi li a:hover{
 	border: 1px #fff solid;
 }
 footer p{
-	padding-top: 75px; 
+	padding-top: 75px;
 	font-size: 12px;
 	color: #515f67;
 }
 /*____________________footer end____________________*/
-
